@@ -10,6 +10,12 @@ namespace TestPineapple
     {
         static void Main(string[] args)
         {
+            Hullo();
         }
+        static void Hullo()
+        {
+            Console.WriteLine("Derp");
+        }
+
     }
 }
