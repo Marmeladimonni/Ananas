@@ -14,14 +14,15 @@ namespace TestPineapple
         /// <param name="args">turhaa paskaa</param>
         static void Main(string[] args)
         {
-            Hullo();
+            Hullo("Derp");
         }
         /// <summary>
-        /// Tulostaa näytölle hullo
+        /// Tulostaa näytölle annetun tekstin
         /// </summary>
-        static void Hullo()
+        /// <param name="teksti">Tulostettava teksti</param>
+        static void Hullo(string teksti)
         {
-            Console.WriteLine("Derp"); //eeppinen kommentti
+            Console.WriteLine(teksti); //eeppinen kommentti
         }
 
     }
