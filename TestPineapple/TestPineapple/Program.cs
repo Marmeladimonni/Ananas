@@ -8,13 +8,21 @@ namespace TestPineapple
 {
     class Program
     {
+        /// <summary>
+        /// Tää on hieno pääohjelma
+        /// </summary>
+        /// <param name="args">turhaa paskaa</param>
         static void Main(string[] args)
         {
-            Hullo();
+            Hullo("Derp");
         }
-        static void Hullo()
+        /// <summary>
+        /// Tulostaa näytölle annetun tekstin
+        /// </summary>
+        /// <param name="teksti">Tulostettava teksti</param>
+        static void Hullo(string teksti)
         {
-            Console.WriteLine("Derp");
+            Console.WriteLine(teksti); //eeppinen kommentti
         }
 
     }
